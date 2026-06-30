@@ -26,7 +26,7 @@ Do not rewrite into React, FastAPI, Docker, WebSockets, or a large architecture 
 - Public internet exposure is unsafe in the current version.
 
 ## Where To Begin
-Read README.md, PROJECT_CONTEXT.md, app.py, static/app.js, templates/index.html, static/styles.css, and TODO.md.
+Read README.md and START_HERE.md (repo root), then docs/development/PROJECT_CONTEXT.md, app.py, static/app.js, templates/index.html, static/styles.css, and docs/development/TODO.md.
 
 ## Recommended Next Steps
 1. Add pytest tests for current API behavior.
@@ -49,21 +49,23 @@ Security concerns: no login, no HTTPS, anyone who reaches the app can read/send 
 Performance improvements: polling is fine for small local use; consider WebSockets or longer interval only if needed; consider limiting returned history if database grows large.
 
 ## GitHub Commit Guidance
-Commit exactly these files:
+Commit these files (repo root unless noted):
 .gitignore
 app.py
 requirements.txt
+start.sh
+open-chat.ps1
 README.md
-BEGINNER_SETUP_AND_DETAILS.md
-PROJECT_REPORT.md
-PROJECT_CONTEXT.md
-TODO.md
-CHANGELOG.md
-CLAUDE_HANDOFF.md
+START_HERE.md
 LICENSE
 templates/index.html
 static/app.js
 static/styles.css
+docs/assets/ (screenshot.png, banner.svg, icon.svg, README.md)
+docs/development/PROJECT_CONTEXT.md
+docs/development/CLAUDE_HANDOFF.md
+docs/development/TODO.md
+docs/development/CHANGELOG.md
 
 Never commit:
 messages.db
@@ -73,6 +75,7 @@ __pycache__/
 .env
 instance/
 *.log
+last-ip.txt
 
 ## Final Advice
 Preserve the project spirit: small, local, readable, and useful. Setup clarity matters as much as code quality for this user. Prefer small documented improvements over clever rewrites.

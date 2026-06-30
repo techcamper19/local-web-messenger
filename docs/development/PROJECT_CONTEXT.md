@@ -11,21 +11,25 @@ Browser client -> Flask app -> SQLite database file.
 Linux runs python app.py. Windows opens http://<linux-ip>:8080.
 
 ## Directory Structure
-Local Web Messenger/
+local-web-messenger/
 - .gitignore
 - app.py
 - requirements.txt
-- README.md
-- BEGINNER_SETUP_AND_DETAILS.md
-- PROJECT_REPORT.md
-- PROJECT_CONTEXT.md
-- TODO.md
-- CHANGELOG.md
-- CLAUDE_HANDOFF.md
+- start.sh                          (Linux launcher)
+- open-chat.ps1                     (Windows "open the chat" helper)
+- README.md                         (user-facing project overview)
+- START_HERE.md                     (beginner setup & usage guide)
 - LICENSE
 - templates/index.html
 - static/app.js
 - static/styles.css
+- docs/
+  - assets/                         (screenshot, banner.svg, icon.svg, asset guide)
+  - development/                    (contributor-only docs)
+    - PROJECT_CONTEXT.md
+    - CLAUDE_HANDOFF.md
+    - TODO.md
+    - CHANGELOG.md
 
 Runtime files not to commit: messages.db, .venv/, __pycache__/, *.pyc, .env, instance/, *.log.
 
