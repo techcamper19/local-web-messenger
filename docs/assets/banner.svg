@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Local Web Messenger banner">
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bbg)"/>
+
+  <!-- left: icon -->
+  <g transform="translate(80,80)">
+    <rect width="160" height="160" rx="36" fill="#0b1220"/>
+    <path d="M40 44h80a14 14 0 0 1 14 14v44a14 14 0 0 1-14 14H74l-24 20v-20h-10a14 14 0 0 1-14-14V58a14 14 0 0 1 14-14z" fill="#2563eb"/>
+    <circle cx="68" cy="80" r="8" fill="#e2e8f0"/>
+    <circle cx="98" cy="80" r="8" fill="#e2e8f0"/>
+    <rect x="66" y="98" width="34" height="6" rx="3" fill="#22c55e"/>
+  </g>
+
+  <!-- right: text -->
+  <g transform="translate(300,0)" fill="#e2e8f0" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="0" y="150" font-size="64" font-weight="700">Local Web Messenger</text>
+    <text x="0" y="200" font-size="30" fill="#94a3b8">A tiny self-hosted LAN messenger for your own devices</text>
+    <g transform="translate(0,236)" font-size="22" fill="#cbd5e1">
+      <rect x="0" y="0" width="170" height="40" rx="20" fill="#1d283a"/>
+      <text x="24" y="27">No cloud</text>
+      <rect x="190" y="0" width="190" height="40" rx="20" fill="#1d283a"/>
+      <text x="214" y="27">No accounts</text>
+      <rect x="400" y="0" width="230" height="40" rx="20" fill="#1d283a"/>
+      <text x="424" y="27">Just Python + Flask</text>
+    </g>
+  </g>
+</svg>
