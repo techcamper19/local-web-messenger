@@ -14,3 +14,15 @@ instance/
 
 # Remembered Linux IP from open-chat.ps1 (personal to your network)
 last-ip.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
