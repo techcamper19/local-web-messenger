@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-06-30 (repository polish)
+
+### Added
+- docs/assets/: real hero screenshot (screenshot.png), editable banner.svg and
+  icon.svg, and an asset guide (README.md) explaining how to regenerate each.
+
+### Changed
+- Rewrote README.md as a proper open-source landing page: elevator pitch,
+  feature list, screenshot, quick start, install, usage, project structure,
+  ASCII architecture diagram, "why this exists", roadmap, FAQ, and license.
+- Repositioned the project as "a tiny self-hosted LAN messenger" with concrete
+  use cases (Windows ↔ Linux, home lab, Raspberry Pi, NAS, AI server, etc.).
+- Moved contributor-only docs into docs/development/ (PROJECT_CONTEXT.md,
+  CLAUDE_HANDOFF.md, TODO.md, CHANGELOG.md) to keep the repo root user-facing.
+- Updated internal doc links and the documented directory structure to match.
+
+### Notes
+- No code or feature changes; app.py, templates, and static assets are unchanged.
+
 ## 2026-06-30 (beginner usability)
 
 ### Added
@@ -37,7 +56,7 @@
 - Added connection status indicator.
 - Added sender name storage in browser localStorage.
 - Added empty-message prevention and sender-name trimming.
-- Added requirements.txt, README.md, BEGINNER_SETUP_AND_DETAILS.md, PROJECT_REPORT.md, MIT LICENSE, and .gitignore.
+- Added requirements.txt, README.md, MIT LICENSE, and .gitignore.
 - Added PROJECT_CONTEXT.md, TODO.md, CHANGELOG.md, and CLAUDE_HANDOFF.md for developer handoff.
 
 ### Verified

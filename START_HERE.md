@@ -142,7 +142,7 @@ That's the daily routine: start it on Linux, open it on your other devices.
 
 > Tip: if you want the app to start automatically when the Linux machine boots,
 > that's a more advanced step (a "systemd service"). It's intentionally left
-> out for now to keep things simple — see `TODO.md`.
+> out for now to keep things simple — see `docs/development/TODO.md`.
 
 ---
 
@@ -272,4 +272,4 @@ curl http://localhost:8080/health
 | Use a different port             | `PORT=9090 bash start.sh`                     |
 
 Happy chatting! For deeper technical details, see `README.md` and
-`PROJECT_CONTEXT.md`.
+`docs/development/PROJECT_CONTEXT.md`.
