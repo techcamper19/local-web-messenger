@@ -1,0 +1,16 @@
+# Runtime / private data - never commit
+messages.db
+*.db
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local config and logs
+.env
+instance/
+*.log
+
+# Remembered Linux IP from open-chat.ps1 (personal to your network)
+last-ip.txt
